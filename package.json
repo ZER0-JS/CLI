@@ -1,0 +1,46 @@
+{
+  "name": "@zero-js/cli",
+  "version": "1.0.0",
+  "description": "CLI for creating full-stack projects.",
+  "keywords": [
+    "cli",
+    "create-project",
+    "zero",
+    "full-stack",
+    "express",
+    "apollo",
+    "graphql",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZER0-JS/CLI",
+    "directory": "packages/create-react-app"
+  },
+  "main": "src/cli.js",
+  "bin": {
+    "zero": "bin/cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "dependencies": {
+    "execa": "^4.0.0",
+    "gluegun": "latest",
+    "listr": "^0.14.3"
+  },
+  "devDependencies": {},
+  "files": [
+    "src",
+    "LICENSE",
+    "readme.md",
+    "bin"
+  ],
+  "license": "MIT",
+  "author": "Vlad Dewitt <dewitt.official@gmail.com>",
+  "contributors": [
+    "Dmitry <eddmonsmith@gmail.com>"
+  ],
+  "homepage": "https://github.com"
+}
